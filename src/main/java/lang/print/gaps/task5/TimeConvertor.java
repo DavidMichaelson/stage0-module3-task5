@@ -6,7 +6,7 @@ public class TimeConvertor {
     public void convert(float minutes) {
 
         int seconds = (int) (minutes * 60);
-        System.out.println(minutes + " minutes are " + seconds + " seconds");
+        System.out.println(seconds);
     }
 
     public static void main(String[] args) {
